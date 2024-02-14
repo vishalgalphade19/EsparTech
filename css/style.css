@@ -105,10 +105,13 @@
 .navbar .navbar-nav {
     padding: 15px 0;
 }
+<<<<<<< HEAD
 .navbar img{
     height: 64px;
 }
 
+=======
+>>>>>>> 72063ca5c4b26f2799b403761ce3abd35f70f8f6
 
 .navbar .navbar-nav .nav-link {
     padding: 10px;
@@ -319,6 +322,7 @@
 /*** Carousel End ***/
 
 
+<<<<<<< HEAD
 /* # Clients */
 
 .clients {
@@ -345,6 +349,8 @@
     }
   }
 
+=======
+>>>>>>> 72063ca5c4b26f2799b403761ce3abd35f70f8f6
 /*** Services Start ***/
 
 .services .services-item {
