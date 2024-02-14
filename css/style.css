@@ -406,7 +406,7 @@
 
 .project-img {
     position: relative;
-    padding: 15px;
+    padding: 7px;
 }
 
 .project-img::before {
@@ -664,11 +664,11 @@
 }
 
 .contact-map {
-    background: #26d48c;
+    background: #a7c0ca;
 }
 
 .contact-form {
-    background: #26d48c;
+    background: #a7c0ca;
 }
 
 /*** Contact End ***/
