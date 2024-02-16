@@ -683,8 +683,8 @@
   
   .deck{
     display: flex;
-    background: rgb(131,58,180);
-background: linear-gradient(90deg, rgb(134, 30, 204) 0%, rgb(76, 53, 225) 9%, rgb(59, 187, 219) 66%, rgb(80, 63, 165) 100%);
+    /* background: rgb(131,58,180); */
+/* background: linear-gradient(90deg, rgb(134, 30, 204) 0%, rgb(76, 53, 225) 9%, rgb(59, 187, 219) 66%, rgb(80, 63, 165) 100%); */
    
     
   }
@@ -702,7 +702,7 @@ background: linear-gradient(90deg, rgb(134, 30, 204) 0%, rgb(76, 53, 225) 9%, rg
     border-radius: 10px;
     height: 300px;
     margin: 10px;
-    width: 500px;   
+    width: 570px;   
     position: relative;
     transform-style: preserve-3d;
     transition: all 2s ease;
