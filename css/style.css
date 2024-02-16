@@ -1,3 +1,6 @@
+
+
+
 /*** Spinner Start ***/
 
 #spinner {
@@ -164,6 +167,7 @@
 
 .carousel-item {
     position: relative;
+       
 }
 
 .carousel-item::after {
@@ -653,6 +657,11 @@
 }
 
 /*** Testimonial End ***/
+
+
+/* product page */
+
+/* product page */
 
 
 /*** Contact Start ***/
