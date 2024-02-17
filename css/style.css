@@ -634,7 +634,7 @@
     height: 15px;
     background: #c1dad0;
     border-radius: 15px;
-    transition: .5s;
+    transition: .4s;
 }
 
 .testimonial-carousel .owl-dot.active {
@@ -657,7 +657,6 @@
 }
 
 /*** Testimonial End ***/
-
 
 /* vision mission block  start*/
 
@@ -733,12 +732,13 @@
     }
   }  */
 
-
+/*  */
+/*  */
+/*  */
 
   .container-1 {
     display: flex;
     justify-content: center;
-    
     align-items: center;
   }
   
@@ -791,9 +791,7 @@
     /* @media screen and (max-width: 768px) {
     .container-1 {
       flex-direction: column;
-      
-    background color:red;
-
+    
     object-fit: cover;
     }
     .card {
