@@ -479,7 +479,7 @@ body{
     perspective: 1000px;
     margin: 20px;
     border-radius: 25px;
-
+box-shadow: 2px 5px 5px gray;
   }
   
   .card-inner {
