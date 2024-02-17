@@ -733,13 +733,12 @@
     }
   }  */
 
-/*  */
-/*  */
-/*  */
+
 
   .container-1 {
     display: flex;
     justify-content: center;
+    
     align-items: center;
   }
   
@@ -792,7 +791,9 @@
     /* @media screen and (max-width: 768px) {
     .container-1 {
       flex-direction: column;
-    
+      
+    background color:red;
+
     object-fit: cover;
     }
     .card {
