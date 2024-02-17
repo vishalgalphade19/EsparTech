@@ -739,8 +739,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-  
   }
   
   .card {
@@ -789,36 +787,41 @@
     background-image:url(../img/vision\ back.jpg);
   }
   
-  @media screen and (max-width: 768px) {
+    /* @media screen and (max-width: 768px) {
     .container-1 {
       flex-direction: column;
-      width: 70%;
-    display: block;
-    margin: 20px;
-    /* align-items: center;
-    justify-content: center; */
+    
+    object-fit: cover;
     }
-  
     .card {
       margin: 20px 0;
-
     }
+    .card-inner {
+        transition: transform 2s;
+        transform-style: preserve-3d;
+      }
     .card:hover .card-inner {
         transform: rotateY(180deg);
       }
-      .card-front,
-  .card-back {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backface-visibility: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
+    
+      .card-back {
+        transform: rotateY(180deg);
+      }
+  }   */
+
+  @media (max-width:768px){
+    .container-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 20px;
+        width: 400px;
+    }
   }
-  }
+
+  
+  
   
 
 
