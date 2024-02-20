@@ -156,9 +156,16 @@ body {
   visibility: visible;
   transition: 0.5s;
   opacity: 1;
+
 }
 
 /*** Navbar End ***/
+/* about section */
+#about{
+  background-color: aliceblue;
+}
+/* about section  */
+
 
 /*** Carousel Start ***/
 
