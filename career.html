@@ -401,6 +401,26 @@
     </div>
     </div>
 
+    <div class="container mt-5">
+      <a class="brochure mb-5 d-flex align-items-center justify-content-center" href="./img/sample.pdf" id="downloadBtn" >
+          <span class="icon flaticon-pdf"></span> Service Overview &nbsp;
+          <span class="text-warning">Download.pdf</span>
+      </a>
+      <div id="enquiryForm" style="display: none;" class="mb-5">
+          <h2>Enquiry Form</h2>
+          <!-- Your form fields go here -->
+          <form id="myForm">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+  
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+  
+              <button type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
+          </form>
+      </div>
+  </div>
+
     <!-- Footer Start -->
     <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
       <div class="container pt-5 pb-4">
@@ -528,6 +548,37 @@
         });
       });
     </script>
+
+<script>
+  document.getElementById('downloadBtn').addEventListener('click', function (e) {
+      e.preventDefault(); // Prevent default link behavior
+
+      // Show the enquiry form
+      document.getElementById('enquiryForm').style.display = 'block';
+  });
+
+  function submitForm() {
+      // Get the values from the form (you can perform validation here)
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+
+      // For simplicity, you can just simulate a download link
+      // Replace this with your actual download logic
+      var downloadLink = document.createElement('a');
+      downloadLink.href = 'sample.pdf';
+      downloadLink.download = 'Download.pdf';
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+
+      
+
+      // Optionally, you can hide the form after download
+      document.getElementById('enquiryForm').style.display = 'none';
+  }
+</script>
+
+
 
 
 

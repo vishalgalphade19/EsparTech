@@ -595,6 +595,62 @@ body {
   }
 }
 
+.brochure {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.brochure:hover {
+  background-color: #0056b3;
+}
+
+#enquiryForm {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#enquiryForm h2 {
+  color: #333;
+  text-align: center;
+}
+
+#myForm {
+  margin-top: 20px;
+}
+
+#myForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#myForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#myForm button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#myForm button:hover {
+  background-color: #0056b3;
+}
 /* career part */
 
 
