@@ -562,13 +562,15 @@ body {
 
 
 /* career part */
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 20px;
   align-items: stretch;
   margin-bottom: 30px;
-}
+} */
+
+
 
 .grid > article {
   border: 1px solid #ccc;
@@ -576,11 +578,21 @@ body {
 }
 
 .grid > article img {
-  max-width: 100%;
+  max-width: 50%;
+  min-height: auto;
+  margin-left: 25%;
+  margin-top: 30px;
+ 
 }
 
 .grid .text {
   padding: 20px;
+}
+
+@media screen  and  (max-width:768px){
+  .container{
+    min-width: 75%;
+  }
 }
 
 /* career part */
