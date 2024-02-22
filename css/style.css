@@ -384,15 +384,9 @@ body {
 }
 
 .services-item:hover .services-content-icon i {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
     color: var(--bs-secondary) !important;
-=======
   color: var(--bs-danger) !important;
->>>>>>> Stashed changes
-=======
   color: var(--bs-danger) !important;
->>>>>>> 1b39a92ac977d22847ce8b4eed12791b36e09ab5
 }
 
 .services-item:hover .services-content-icon p {
@@ -562,12 +556,9 @@ body {
 /*** Contact End ***/
 
 
-<<<<<<< HEAD
+
 /* body bg */
-=======
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
+
 /* body bg */
 
 .b1{
@@ -575,22 +566,16 @@ body {
 }
 
 /* body bg */
-=======
 /* cards It sector */
->>>>>>> 86ab36775e14320a847519619ebd1dadeac9a86e
 
 .b1{
   background-image: url(../img/career\ background.jpg);
 }
 
-<<<<<<< HEAD
 /* body bg */
-=======
+
 
 /* cards It Sector */
->>>>>>> 1b39a92ac977d22847ce8b4eed12791b36e09ab5
-
->>>>>>> 86ab36775e14320a847519619ebd1dadeac9a86e
 
 
 /* career part */
@@ -606,15 +591,9 @@ body {
 
 .grid > article {
   border: 1px solid #ccc;
-<<<<<<< HEAD
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
-=======
-<<<<<<< HEAD
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
-=======
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
->>>>>>> 1b39a92ac977d22847ce8b4eed12791b36e09ab5
->>>>>>> 86ab36775e14320a847519619ebd1dadeac9a86e
 }
 
 .grid > article img {
@@ -631,10 +610,6 @@ body {
 
 @media screen  and  (max-width:768px){
   .container{
-<<<<<<< HEAD
-    min-width: 95%;
-=======
-<<<<<<< HEAD
     min-width: 95%;
   }
   
@@ -698,14 +673,11 @@ body {
 }
 /* career part */
 
-
->>>>>>> Stashed changes
-=======
+/* 
     min-width: 75%;
->>>>>>> 86ab36775e14320a847519619ebd1dadeac9a86e
   }
   
-}
+} */
 
 .brochure {
   display: block;
@@ -766,7 +738,6 @@ body {
 /* career part */
 
 
->>>>>>> 1b39a92ac977d22847ce8b4eed12791b36e09ab5
 /*** Footer Start ***/
 
 .footer .short-link a,
@@ -791,7 +762,7 @@ body {
 
 .card2{
   margin: 10px auto;
-  box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 10px 0 rgba(0,0,0,0.2);
   border-radius: 6px;
   height: 100%;
   width: 80%;
@@ -799,7 +770,7 @@ body {
   align-items: center;
 }
 .card2:hover {
-box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.3);
+box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.5);
 }
 .card-title{
   text-align: center;
@@ -825,3 +796,19 @@ color: #66686b;
   font-weight: bold;
 
 }
+
+.ITCard{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ITCard:hover {
+  box-shadow: 1px 10px 20px 0 rgba(0,0,0,0.5);
+  }
+
+.ETCCard{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ETCCard:hover {
+  box-shadow: 1px 10px 20px 0 rgba(0,0,0,0.5);
+  }
