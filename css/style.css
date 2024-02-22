@@ -384,6 +384,7 @@ body {
 }
 
 .services-item:hover .services-content-icon i {
+<<<<<<< HEAD
 
 
     color: var(--bs-secondary) !important;
@@ -399,6 +400,11 @@ body {
 
   color: var(--bs-danger) !important;
 
+=======
+    color: var(--bs-secondary) !important;
+  color: var(--bs-danger) !important;
+  color: var(--bs-danger) !important;
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
 }
 
 .services-item:hover .services-content-icon p {
@@ -569,6 +575,7 @@ body {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
  
 
@@ -585,40 +592,49 @@ body {
 <<<<<<< Updated upstream
 =======
 >>>>>>> f083a023ef68708cbea4be5f17945b9cda5333e2
-/* body bg */
-
-.b1{
-  background-image: url(../img/career\ background.jpg);
-}
-
-/* body bg */
-
-/* cards It sector */
-
-
-.b1{
-  background-image: url(../img/career\ background.jpg);
-}
-
-/* body bg */
-
-
-
-/* cards It sector */
->>>>>>> 86ab36775e14320a847519619ebd1dadeac9a86e
-
-.b1{
-  background-image: url(../img/career\ background.jpg);
-}
-
-<<<<<<< HEAD
-/* body bg */
 =======
 
+/* body bg */
+
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
+/* body bg */
+
+.b1{
+  background-image: url(../img/career\ background.jpg);
+}
+
+/* body bg */
+<<<<<<< HEAD
+
+/* cards It sector */
+
+
+.b1{
+  background-image: url(../img/career\ background.jpg);
+}
+
+/* body bg */
+
+
+
+=======
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
+/* cards It sector */
+
+.b1{
+  background-image: url(../img/career\ background.jpg);
+}
+
+/* body bg */
+
+
 /* cards It Sector */
+<<<<<<< HEAD
 
 
 >>>>>>> 86ab36775e14320a847519619ebd1dadeac9a86e
+=======
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
 
 
 /* career part */
@@ -634,6 +650,7 @@ body {
 
 .grid > article {
   border: 1px solid #ccc;
+<<<<<<< HEAD
 
 
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
@@ -653,12 +670,17 @@ body {
 =======
 =======
 <<<<<<< HEAD
-  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
 =======
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+<<<<<<< HEAD
 >>>>>>> 1b39a92ac977d22847ce8b4eed12791b36e09ab5
 >>>>>>> 86ab36775e14320a847519619ebd1dadeac9a86e
 >>>>>>> f083a023ef68708cbea4be5f17945b9cda5333e2
+=======
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
 }
 
 .grid > article img {
@@ -675,6 +697,7 @@ body {
 
 @media screen  and  (max-width:768px){
   .container{
+<<<<<<< HEAD
 
 
 
@@ -684,6 +707,8 @@ body {
     min-width: 95%;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
     min-width: 95%;
   }
   
@@ -747,6 +772,7 @@ body {
 }
 /* career part */
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
@@ -755,12 +781,18 @@ body {
 =======
 >>>>>>> Stashed changes
 =======
+=======
+/* 
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
     min-width: 75%;
->>>>>>> 86ab36775e14320a847519619ebd1dadeac9a86e
   }
   
+<<<<<<< HEAD
 }
 >>>>>>> f083a023ef68708cbea4be5f17945b9cda5333e2
+=======
+} */
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
 
 .brochure {
   display: block;
@@ -821,6 +853,7 @@ body {
 /* career part */
 
 
+<<<<<<< HEAD
 
 
     /* min-width: 75%;
@@ -889,6 +922,8 @@ body {
 
 
 
+=======
+>>>>>>> 270fd72b4dc2ac71dc9e910c9212c79c4591498e
 /*** Footer Start ***/
 
 .footer .short-link a,
@@ -913,7 +948,7 @@ body {
 
 .card2{
   margin: 10px auto;
-  box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 10px 0 rgba(0,0,0,0.2);
   border-radius: 6px;
   height: 100%;
   width: 80%;
@@ -921,7 +956,7 @@ body {
   align-items: center;
 }
 .card2:hover {
-box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.3);
+box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.5);
 }
 .card-title{
   text-align: center;
@@ -947,3 +982,19 @@ color: #66686b;
   font-weight: bold;
 
 }
+
+.ITCard{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ITCard:hover {
+  box-shadow: 1px 10px 20px 0 rgba(0,0,0,0.5);
+  }
+
+.ETCCard{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ETCCard:hover {
+  box-shadow: 1px 10px 20px 0 rgba(0,0,0,0.5);
+  }
