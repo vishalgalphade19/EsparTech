@@ -574,7 +574,7 @@ body {
 
 .grid > article {
   border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .grid > article img {
@@ -591,8 +591,9 @@ body {
 
 @media screen  and  (max-width:768px){
   .container{
-    min-width: 75%;
+    min-width: 95%;
   }
+  
 }
 
 .brochure {
@@ -678,9 +679,10 @@ body {
 
 .card2{
   margin: 10px auto;
-  box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.2);
   border-radius: 6px;
   height: 100%;
+  width: 80%;
   transition: 0.3s;
   align-items: center;
 }
@@ -707,7 +709,7 @@ color: #66686b;
 .title-heading{
   font-size: 3em;
   text-align: center;
-  margin: 4%;
+  margin-bottom: 1px;
   font-weight: bold;
 
 }
