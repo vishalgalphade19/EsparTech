@@ -402,7 +402,11 @@
 }
 
 .services-item:hover .services-content-icon i {
+<<<<<<< Updated upstream
     color: var(--bs-secondary) !important;
+=======
+  color: var(--bs-danger) !important;
+>>>>>>> Stashed changes
 }
 
 .services-item:hover .services-content-icon p {
@@ -691,6 +695,113 @@
 /*** Contact End ***/
 
 
+<<<<<<< Updated upstream
+=======
+/* body bg */
+
+.b1{
+  background-image: url(../img/career\ background.jpg);
+}
+
+/* body bg */
+
+
+
+/* career part */
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  margin-bottom: 30px;
+} */
+
+
+
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  max-width: 50%;
+  min-height: auto;
+  margin-left: 25%;
+  margin-top: 30px;
+ 
+}
+
+.grid .text {
+  padding: 20px;
+}
+
+@media screen  and  (max-width:768px){
+  .container{
+    min-width: 95%;
+  }
+  
+}
+
+.brochure {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.brochure:hover {
+  background-color: #0056b3;
+}
+
+#enquiryForm {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#enquiryForm h2 {
+  color: #333;
+  text-align: center;
+}
+
+#myForm {
+  margin-top: 20px;
+}
+
+#myForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#myForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#myForm button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#myForm button:hover {
+  background-color: #0056b3;
+}
+/* career part */
+
+
+>>>>>>> Stashed changes
 /*** Footer Start ***/
 
 .footer .short-link a,
