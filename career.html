@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <title>EsparTech</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="" name="keywords" />
   <meta content="" name="description" />
-
   <!-- favicon icon -->
   <link rel="icon" href="./img/logo_espar-tech.png" />
   <!-- Google Web Fonts -->
@@ -16,23 +14,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
     rel="stylesheet" />
-
   <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-
   <!-- Libraries Stylesheet -->
   <link href="lib/animate/animate.min.css" rel="stylesheet" />
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-
   <!-- Customized Bootstrap Stylesheet -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
-
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
-
-
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -54,7 +45,7 @@
       <div class="d-flex justify-content-between topbar mb-2">
         <div class="top-info">
           <small class="me-3 text-white-50"><a href="#"><i
-                class="fas fa-map-marker-alt me-2 text-danger"></i></a>Manaji Nagar, Narhe, Pune-411041</small>
+                class="fas fa-map-marker-alt me-2 text-danger"></i></a>Narhe, Pune-411041</small>
           <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-danger"></i></a>
             esparktech.info@gmail.com</small>
         </div>
@@ -130,8 +121,7 @@
           </div>
         </div>
       </div>
-
-      <div class="row m-2 d-flex justify-content-center">
+      <div class="row m-5 d-flex justify-content-between">
         <div class="col-lg-6 col-sm-6 col-md-4 col-xl-5 col-xs-12">
           <div class="card2 course-card" data-course="it-sector">
             <div class="card-body">
@@ -139,7 +129,6 @@
               <div class="card-image" style="color: #213661;">
                 <i class="fas fa-laptop-code fa-5x"></i>
               </div>
-
               <ul>
                 <li><a href="#software" class="nav-link-btn" onclick="scrollToSection('software')">Software Development</a></li>
                 <li><a href="#fullstack" class="nav-link-btn" onclick="scrollToSection('fullstack')">FullStack Development</a></li>
@@ -170,16 +159,9 @@
             </div>
           </div>
         </div>
-
-
-
       </div>
     </div>
-
-
-
     <!-- cards It sector -->
-
     <div class="container w-50">
       <main class=" grid  justify-content-center mb-5">
         <article id="software" class=" ITCard mt-5 course-content " data-course="it-sector">
@@ -217,7 +199,6 @@
                 <li>JavaScript</li>
               </ul>
             </details>
-
             <details>
               <summary>Front End Libraries and Frameworks</summary>
               <ul>
@@ -228,7 +209,6 @@
                 <li>SASS</li>
               </ul>
             </details>
-
             <details>
               <summary>Back-end Technologies</summary>
               <ul>
@@ -508,13 +488,13 @@
             <a href="https://api.whatsapp.com/send?phone=918788414717" class="btn btn-primary btn-block" target="_blank">Connect Now</a>
           </div>
         </article>
-      </main>
+    </main>
     </div>
 
     <!-- E&TC Card End -->
 
 
-    <div class="container mt-5 justify-content-center align-items-center">
+    <!-- <div class="container mt-5 justify-content-center align-items-center">
       <a class="brochure mb-5 d-flex align-items-center justify-content-center" href="" id="downloadBtn">
         <span class="icon flaticon-pdf"></span> Service Overview &nbsp;
         <span class="text-warning">Broucher.pdf</span>
@@ -522,7 +502,7 @@
       <div class="d-flex align-items-center justify-content-center">
         <div id="enquiryForm" style="display: none;" class="mb-5 ">
           <h2>Enquiry Form</h2>
-          <!-- Your form fields go here -->
+          
           <form id="myForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -538,7 +518,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- Footer Start -->
@@ -643,21 +623,20 @@
 
   <!-- Template Javascript -->
   <!-- brocher script -->
-  <script>
+  <!-- <script>
     document.getElementById('downloadBtn').addEventListener('click', function (e) {
-      e.preventDefault(); // Prevent default link behavior
+      e.preventDefault(); 
 
-      // Show the enquiry form
+      
       document.getElementById('enquiryForm').style.display = 'block';
     });
 
     function submitForm() {
-      // Get the values from the form (you can perform validation here)
+     
       var name = document.getElementById('name').value;
       var email = document.getElementById('email').value;
 
-      // For simplicity, you can just simulate a download link
-      // Replace this with your actual download logic
+     
       var downloadLink = document.createElement('a');
       downloadLink.href = './img/sample.pdf';
       downloadLink.download = 'Broucher.pdf';
@@ -667,10 +646,10 @@
 
 
 
-      // Optionally, you can hide the form after download
+      
       document.getElementById('enquiryForm').style.display = 'none';
     }
-  </script>
+  </script> -->
 
   <!-- brocher script end -->
 
