@@ -45,7 +45,7 @@
       <div class="d-flex justify-content-between topbar mb-2">
         <div class="top-info">
           <small class="me-3 text-white-50"><a href="#"><i
-                class="fas fa-map-marker-alt me-2 text-danger"></i></a>Manaji Nagar, Narhe, Pune-411041</small>
+                class="fas fa-map-marker-alt me-2 text-danger"></i></a>Narhe, Pune-411041</small>
           <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-danger"></i></a>
             esparktech.info@gmail.com</small>
         </div>
@@ -462,13 +462,14 @@
             <a href="https://api.whatsapp.com/send?phone=918788414717" class="btn btn-primary btn-block" target="_blank">Connect Now</a>
           </div>
         </article>
+        
       </main>
     </div>
 
     <!-- E&TC Card End -->
 
 
-    <div class="container mt-5 justify-content-center align-items-center">
+    <!-- <div class="container mt-5 justify-content-center align-items-center">
       <a class="brochure mb-5 d-flex align-items-center justify-content-center" href="" id="downloadBtn">
         <span class="icon flaticon-pdf"></span> Service Overview &nbsp;
         <span class="text-warning">Broucher.pdf</span>
@@ -476,7 +477,7 @@
       <div class="d-flex align-items-center justify-content-center">
         <div id="enquiryForm" style="display: none;" class="mb-5 ">
           <h2>Enquiry Form</h2>
-          <!-- Your form fields go here -->
+          
           <form id="myForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -492,7 +493,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- Footer Start -->
@@ -597,21 +598,20 @@
 
   <!-- Template Javascript -->
   <!-- brocher script -->
-  <script>
+  <!-- <script>
     document.getElementById('downloadBtn').addEventListener('click', function (e) {
-      e.preventDefault(); // Prevent default link behavior
+      e.preventDefault(); 
 
-      // Show the enquiry form
+      
       document.getElementById('enquiryForm').style.display = 'block';
     });
 
     function submitForm() {
-      // Get the values from the form (you can perform validation here)
+     
       var name = document.getElementById('name').value;
       var email = document.getElementById('email').value;
 
-      // For simplicity, you can just simulate a download link
-      // Replace this with your actual download logic
+     
       var downloadLink = document.createElement('a');
       downloadLink.href = './img/sample.pdf';
       downloadLink.download = 'Broucher.pdf';
@@ -621,10 +621,10 @@
 
 
 
-      // Optionally, you can hide the form after download
+      
       document.getElementById('enquiryForm').style.display = 'none';
     }
-  </script>
+  </script> -->
 
   <!-- brocher script end -->
 
