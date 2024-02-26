@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    
     <meta charset="utf-8" />
     <title>EsparTech</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -120,7 +122,7 @@
             <div class="navbar-nav ms-auto mx-xl-auto p-0">
               <a
                 href="#carouselId"
-                class="nav-item nav-link  text-primary"
+                class="nav-item nav-link nav-link text-primary"
                 >Home</a
               >
               <a href="#about" class="nav-item  nav-link text-primary">About</a>
@@ -365,7 +367,7 @@
                 <div class="services-content-icon">
                   <i class="fas fa-sliders-h fa-5x mb-4 text-primary"></i>
 
-                  <h4 class="mb-3">Microcontroller/Microprocessor Selection</h4>
+                  <h4 class="mb-3">Microcontroller Selection</h4>
                   <p class="mb-4">
                     we guide you in choosing the ideal microcontroller or
                     microprocessor for your embedded project. Our expertise
@@ -527,7 +529,7 @@
     <!-- product page -->
 
 
-     
+     <!-- Vision Mission Start -->
     <div class="container-1">
       <div class="card">
         <div class="card-inner">
@@ -558,6 +560,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Vision Mission End -->
 
 
     <!-- Contact Start -->
@@ -609,13 +613,13 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
+            <div class="col-xl-4 col-lg-6 wow fadeIn Email" data-wow-delay=".7s">
               <div class="d-flex bg-light p-3 rounded">
                 <div
-                  class="flex-shrink-0 btn-square bg-primary rounded-circle"
+                  class="flex-shrink-0 btn-square bg-primary rounded-circle" 
                   style="width: 64px; height: 64px"
                 >
-                  <i class="fa fa-envelope text-danger"></i>
+                  <i class="fa fa-envelope text-danger "></i>
                 </div>
                 <div class="ms-3">
                   <h4 class="text-secondary">Email Us</h4>
@@ -822,6 +826,17 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <script>
+      $(document).ready(function () {
+        // Close the navbar when a navbar item is clicked
+        $(".navbar-nav a").on("click", function () {
+          $(".navbar-collapse").collapse("hide");
+        });
+      });
+    </script>
+    
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

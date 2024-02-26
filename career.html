@@ -118,16 +118,14 @@
 
 
   <div class="b1">
-    <div class="container">
-      <div class="row ">
-        <div class="col-12">
-          <div class="title-heading">
-            Internship
-          </div>
-        </div>
+    <div class="container1">
+      <div >
+      <h1 class=" title-heading  text-light justify-content-center p-2">
+        Internship
+      </h1>            
       </div>
-      <div class="row m-5 d-flex justify-content-between">
-        <div class="col-lg-6 col-sm-6 col-md-4 col-xl-5 col-xs-12">
+      <div class="row m-5 d-flex justify-content-center">
+        <div class=" ITsector col-lg-6 col-sm-6 col-md-4 col-xl-4 col-xs-12">
           <div class="card2 course-card" data-course="it-sector">
             <div class="card-body">
               <h4 class="card-title">IT Sector</h4>
@@ -138,14 +136,16 @@
                 <li><a href="#software" class="nav-link-btn" onclick="scrollToSection('software')">Software Development</a></li>
                 <li><a href="#fullstack" class="nav-link-btn" onclick="scrollToSection('fullstack')">FullStack Development</a></li>
                 <li><a href="#data" class="nav-link-btn" onclick="scrollToSection('data')">Data Science</a></li>
+                <li><a href="#analyst" class="nav-link-btn" onclick="scrollToSection('digital')">Data Analyst</a></li>
                 <li><a href="#testing" class="nav-link-btn" onclick="scrollToSection('testing')">Software Testing</a></li>
                 <li><a href="#digital" class="nav-link-btn" onclick="scrollToSection('digital')">Digital Marketing</a></li>
+                
 
               </ul>
             </div>
           </div>
-        </div>
-        <div class="col-lg-6 col-sm-6 col-md-4 col-xl-5 col-xs-12 ">
+        </div> 
+        <div class=" ETCsector col-lg-6 col-sm-6 col-md-4 col-xl-4 col-xs-12">
           <div class="card2 course-card" data-course="it-sector">
             <div class="card-body">
               <h4 class="card-title">E&TC Sector</h4>
@@ -258,6 +258,32 @@
                 <li>Artificial Intelligence</li>
                 <li> AR/VR Systems</li>
                 <li>Quantum Computing</li>
+              </ul>
+            </details>
+            <a href="https://api.whatsapp.com/send?phone=918484883282" class="btn btn-primary btn-block" target="_blank">Connect Now</a>
+          </div>
+        </article>
+        <article id="analyst" class="ITCard mt-5  course-content" data-course="it-sector">
+          <img src="./img/analytics.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Data Analyst</h3>
+            <p>
+              Data analysis involves examining, cleaning, and transforming data to extract valuable insights and support decision-making processes.
+            </p>
+            <details>
+              <summary>Technologies</summary>
+              <ul>
+                <li>Python for Data Analysis</li>
+                <li>R Programming</li>
+                <li>SQL Database Management</li>
+                <li>Tableau Visualization</li>
+                <li>Machine Learning Algorithms</li>
+                <li>Data Mining Techniques</li>
+                <li>Excel and Spreadsheet Analytics</li>
+                <li>Statistical Analysis System (SAS)</li>
+                <li>Apache Hadoop</li>
+                <li>Power BI</li>
+
               </ul>
             </details>
             <a href="https://api.whatsapp.com/send?phone=918484883282" class="btn btn-primary btn-block" target="_blank">Connect Now</a>
@@ -663,23 +689,17 @@
 
   <script>
     $(document).ready(function () {
-      // Hide all course content initially
       $(".course-content").hide();
 
-      // Show the default content when the page loads (you can modify this based on your requirement)
       $("#software").show();
 
-      // Handle link click
       $(".nav-link-btn").click(function (e) {
         e.preventDefault();
 
-        // Hide all course content
         $(".course-content").hide();
 
-        // Get the course identifier from the clicked link
         var courseIdentifier = $(this).attr("href").substring(1);
 
-        // Show the corresponding course content
         $("#" + courseIdentifier).show();
       });
     });
