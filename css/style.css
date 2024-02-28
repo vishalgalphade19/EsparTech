@@ -2,6 +2,8 @@
 body {
   font-family: "Times New Roman", Times, serif;
   font-size: 19px;
+  overflow-x: hidden; 
+  
 }
 
 #spinner {
@@ -491,10 +493,15 @@ body {
 }
 
 .card {
-  width: 580px;
+  /* width: 580px; */
+  /* height: 300px; */
+  display: inline;
+
+  width: 35%;
   height: 300px;
+  margin: 10px auto;
   perspective: 1000px;
-  margin: 20px;
+  /* margin: 20px; */
   border-radius: 25px;
   box-shadow: 2px 5px 5px gray;
 }
@@ -536,6 +543,20 @@ body {
   background-image: url(../img/vision\ back.jpg);
 }
 
+@media (min-width: 320px) {
+  /* .container-1 {
+    flex-direction: column;
+    align-items: center;
+  } */
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+     
+  }
+}
+
 @media (max-width: 768px) {
   .container-1 {
     flex-direction: column;
@@ -572,75 +593,36 @@ body {
   background: #a7c0ca;
 }
 
-/*** Contact End ***/
+/* @media screen  and (min-width:320px){
+  .btn-square{
+    display: none;
+  }
+  
+ .contact-detail a{
+  font-size:medium;
+ }
+} */
+
+@media screen and (max-width:480px){
+  .btn-square{
+    display: none;
+  }
+
+  .contact-detail a{
+    font-size: 14px;
+  }
 
 
-
-
- 
-
-
-
-
-
-.b1{
-  background-image: url(../img/career\ background.jpg);
 }
-
-
-/* .b1{
-  background-image: url(../img/career\ background.jpg);
-} */
-
-
-/* .b1{
-  background-image: url(../img/career\ background.jpg);
-} */
-
-
-
-
-
-
-
-
-
-
-/* career part */
-/* .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 20px;
-  align-items: stretch;
-  margin-bottom: 30px;
-} */
-
+/*** Contact End ***/
 .b1{
   background-image: url(../img/career\ background.jpg);
   background-size: cover;
 }
-
 .grid > article {
   border: 1px solid #ccc;
-
-
-  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
-
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-
-
-
-  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
-
-
-  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
-
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-
-  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-
 }
 
 .grid > article img {
@@ -661,206 +643,6 @@ body {
   }
   
 }
-
-.brochure {
-  display: block;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.brochure:hover {
-  background-color: #0056b3;
-}
-
-#enquiryForm {
-  background-color: #f8f9fa;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  display: none;
-  width: 40%;
-}
-
-@media screen and (max-width:768px){
-  #enquiryForm{
-    width:60%;
-  }
-}
-
-#enquiryForm h2 {
-  color: #333;
-  text-align: center;
-}
-
-#myForm {
-  margin-top: 20px;
-}
-
-#myForm label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-#myForm input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-}
-
-#myForm button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#myForm button:hover {
-  background-color: #0056b3;
-}
-/* career part */
-
-
-
-
- 
-
-
-
-.brochure {
-  display: block;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.brochure:hover {
-  background-color: #0056b3;
-}
-
-#enquiryForm {
-  background-color: #f8f9fa;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  display: none;
-}
-
-#enquiryForm h2 {
-  color: #333;
-  text-align: center;
-}
-
-#myForm {
-  margin-top: 20px;
-}
-
-#myForm label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-#myForm input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-}
-
-#myForm button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#myForm button:hover {
-  background-color: #0056b3;
-}
-/* career part */
-
-
-
-    /* min-width: 75%;
-
-  }
-  
-} */
-
-.brochure {
-  display: block;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.brochure:hover {
-  background-color: #0056b3;
-}
-
-#enquiryForm {
-  background-color: #f8f9fa;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  display: none;
-}
-
-#enquiryForm h2 {
-  color: #333;
-  text-align: center;
-}
-
-#myForm {
-  margin-top: 20px;
-}
-
-#myForm label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-#myForm input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-}
-
-#myForm button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#myForm button:hover {
-  background-color: #0056b3;
-}
-/* career part */
-
-
-
-
 
 .footer .short-link a,
 .footer .help-link a,
@@ -886,11 +668,17 @@ body {
   margin: 10px auto;
   box-shadow: 0px 2px 10px 0 rgba(0,0,0,0.2);
   border-radius: 6px;
-  height: 100%;
-  width: 80%;
+  /* width: 3%; */
   transition: 0.3s;
   align-items: center;
 }
+
+/* @media screen and (min-width:320px) {
+  .card2{
+    width: 100%;
+  }
+} */
+
 .card2:hover {
 box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.5);
 }
@@ -934,3 +722,5 @@ color: #66686b;
 .ETCCard:hover {
   box-shadow: 1px 10px 20px 0 rgba(0,0,0,0.5);
   }
+
+
